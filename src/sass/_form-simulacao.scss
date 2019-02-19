@@ -1,0 +1,41 @@
+.form-simulacao{
+    background-color: $primary-color;
+    padding: 20px 20px;
+    box-shadow: -5px 5px 10px #888888;
+    &--title{
+        text-align: center;
+        font-weight: 700;
+        color: $secondary-color;
+    }
+    &--button{
+        color: #fff;
+        background-color: $secondary-color;
+        border-color: $secondary-color;
+        &:focus,&:active {
+            outline: none !important;
+            box-shadow: none;
+         }
+    }
+    .form-group{
+        label{
+            color: $secondary-color;
+        }
+        .icon{
+            color: #fff;
+            margin-left: 5px;
+        }
+        .form-control{
+            background: transparent;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            border-radius: 0;
+            color: #fff;
+            &:active, &:focus{
+                outline: none;
+                border-bottom: $secondary-color 1px solid;
+                box-shadow: none;
+            }
+        }
+    }
+}

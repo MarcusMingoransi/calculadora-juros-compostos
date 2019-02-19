@@ -1,0 +1,40 @@
+.graph{
+    .canvas-container {
+        height: 60vh;
+    }
+
+    &--amount{
+        position: relative;
+        padding-left: 15px;
+        &:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 100%;
+            background-color: $primary-color;
+        }
+        span{
+            color: $primary-color;
+            font-weight: 900;
+        }
+    }
+    &--juros{
+        position: relative;
+        padding-left: 15px;
+        &:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 100%;
+            background-color: $secondary-color;
+        }
+        span{
+            color: $secondary-color;
+            font-weight: 900;
+        }
+    }
+}
