@@ -7087,7 +7087,8 @@ a.text-dark:hover, a.text-dark:focus {
 .form-simulacao {
   background-color: #392875;
   padding: 20px 20px;
-  box-shadow: -5px 5px 10px #888888; }
+  box-shadow: -5px 5px 10px #888888;
+  margin-top: 20px; }
   .form-simulacao--title {
     text-align: center;
     font-weight: 700;
@@ -7116,36 +7117,36 @@ a.text-dark:hover, a.text-dark:focus {
       border-bottom: #f4a63d 1px solid;
       box-shadow: none; }
 
-.graph .canvas-container {
-  height: 60vh; }
-
-.graph--amount {
-  position: relative;
-  padding-left: 15px; }
-  .graph--amount:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10px;
-    height: 100%;
-    background-color: #392875; }
-  .graph--amount span {
-    color: #392875;
-    font-weight: 900; }
-
-.graph--juros {
-  position: relative;
-  padding-left: 15px; }
-  .graph--juros:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10px;
-    height: 100%;
-    background-color: #f4a63d; }
-  .graph--juros span {
-    color: #f4a63d;
-    font-weight: 900; }
+.graph {
+  margin-top: 20px; }
+  .graph .canvas-container {
+    height: 60vh; }
+  .graph--amount {
+    position: relative;
+    padding-left: 15px; }
+    .graph--amount:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 10px;
+      height: 100%;
+      background-color: #392875; }
+    .graph--amount span {
+      color: #392875;
+      font-weight: 900; }
+  .graph--juros {
+    position: relative;
+    padding-left: 15px; }
+    .graph--juros:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 10px;
+      height: 100%;
+      background-color: #f4a63d; }
+    .graph--juros span {
+      color: #f4a63d;
+      font-weight: 900; }
 
